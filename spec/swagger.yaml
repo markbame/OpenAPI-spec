@@ -1,0 +1,18 @@
+swagger: '2.0'
+info:
+  title: DucatusBackOffice
+  description: Optional multiline or single-line description in [CommonMark](http://commonmark.org/help/) or HTML.
+  version: 1.0.0
+  x-logo:
+    url: 'https://network.ducatus.net/assets/images/nav-logo.png'
+
+paths:
+  /users:
+    get:
+      summary: Returns a list of data.
+      description: Optional extended description in CommonMark or HTML.
+      responses:
+        200:
+          description: "successful operation"
+        405:
+          description: "Invalid input"
